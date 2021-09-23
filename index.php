@@ -33,4 +33,20 @@
     </div>
 </body>
 
-</html>
+</html> 
+
+<?php
+
+$pdo = new PDO('sqlite:banco.sqlite');
+
+$sql ="insert into pessoa(id,nome,idade,email,senha) values(1,'gabriel',23,'lllk@sdsd.com','abc');";
+
+$pdo->exec($sql);
+
+
+
+
+
+
+
+
